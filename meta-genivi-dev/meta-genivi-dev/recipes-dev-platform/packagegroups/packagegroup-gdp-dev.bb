@@ -13,6 +13,10 @@ PACKAGES = "\
 
 ALLOW_EMPTY_${PN} = "1"
 
+DEPENDS_${PN} += "\
+    python-native-dev \
+    "
+
 RDEPENDS_${PN} += "\
     avahi-daemon \
     openssh-sftp-server \
